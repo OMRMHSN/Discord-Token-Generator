@@ -13,7 +13,7 @@ current_path = os.path.dirname(os.path.realpath(__file__))
 url = "https://discordapp.com/api/v6/users/@me/library"
 
 while(int(count) < int(N)):
-    tokens = []
+    tokens = [100]
     base64_string = "=="
     while(base64_string.find("==") != -1):
         sample_string = str(randint(000000000000000000, 999999999999999999))
